@@ -1,0 +1,17 @@
+ext{
+	repositories {
+		mavenLocal()
+	    maven {
+	        url 'https://repo.spring.io/libs-snapshot'
+	    }
+	}
+	dependencies {
+	    compile files('C:///Program Files///Java///Java3D///1.5.1///lib///ext///j3dcore.jar')
+	    compile files('C:///Program Files///Java///Java3D///1.5.1///lib///ext///j3dutils.jar')
+	    compile files('C:///Program Files///Java///Java3D///1.5.1///lib///ext///vecmath.jar')
+	    compile files('D:///Eclipse///eclipse-oxygen///plugins///org.eclipse.jdt.core_3.13.0.v_OTDT_r260_201706061122.jar')
+	    compile files('D:///Eclipse///eclipse-oxygen///plugins///org.eclipse.jdt.core_3.13.0.v_OTDT_r260_201706061122.jar')
+	    compile files('D:///Eclipse///eclipse-oxygen///plugins///org.eclipse.jdt.core_3.13.0.v_OTDT_r260_201706061122.jar')
+	    compile files('D:///Eclipse///eclipse-oxygen///plugins///org.eclipse.equinox.common_3.9.0.v20170207-1454.jar')	
+	}
+}
